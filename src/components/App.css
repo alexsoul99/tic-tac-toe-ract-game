@@ -1,0 +1,30 @@
+.align {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.text {
+	color: #c7f7ff;
+}
+
+.history {
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+}
+
+.btn-history {
+	background: #c7f7ff;
+	border: 1px solid #999;
+	border-radius: 6px;
+	margin: 2px 0;
+	font-size: 1.4rem;
+	padding: 0.2rem 3rem;
+	cursor: pointer;
+}
+
+.btn-history:hover {
+	background: #94effe;
+}

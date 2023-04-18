@@ -1,0 +1,22 @@
+.separator {
+	width: 15rem;
+	color: #c7f7ff;
+}
+
+.status {
+	margin-bottom: 10px;
+	color: #c7f7ff;
+	font-size: 2rem;
+}
+
+.board-row:after {
+	clear: both;
+	content: '';
+	display: table;
+}
+
+.current-move {
+	color: #c7f7ff;
+	margin-top: 8px;
+	font-size: 1.4rem;
+}

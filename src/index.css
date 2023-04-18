@@ -1,0 +1,23 @@
+* {
+	box-sizing: border-box;
+	background-color: #202128;
+}
+
+body {
+	font-family: Helvetica, sans-serif;
+}
+
+h2 {
+	margin-top: 0;
+	font-size: 2.2rem;
+}
+
+h3 {
+	margin-top: 0;
+	font-size: 1.6rem;
+}
+
+body {
+	font-family: sans-serif;
+	margin-top: 2rem;
+}

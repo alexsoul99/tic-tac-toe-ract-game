@@ -1,0 +1,52 @@
+.square {
+	background: #c7f7ff;
+	border-radius: 0.7rem;
+	clip-path: polygon(
+		36% 0,
+		0 0,
+		0 29%,
+		0 57%,
+		0 100%,
+		30% 100%,
+		73% 100%,
+		100% 100%,
+		100% 59%,
+		100% 31%,
+		100% 0,
+		74% 0
+	);
+	float: left;
+	font-size: 4rem;
+	font-weight: bold;
+	line-height: 4rem;
+	margin: 0.4rem;
+	text-align: center;
+	height: 5rem;
+	width: 5rem;
+	cursor: pointer;
+	transition: all 0.3s;
+	border: none;
+}
+
+.square-x {
+	background-color: #db412f;
+	clip-path: polygon(
+		20% 0%,
+		0% 20%,
+		30% 50%,
+		0% 80%,
+		20% 100%,
+		50% 70%,
+		80% 100%,
+		100% 80%,
+		70% 50%,
+		100% 20%,
+		80% 0%,
+		50% 30%
+	);
+}
+
+.square-o {
+	background-color: #2a83f0;
+	border-radius: 50%;
+}
